@@ -25,7 +25,7 @@ public class MainActivity extends Activity
 
     public void clickC(View v)
     {
-        startService(new Intent(this,AudioResiver.class));
+        startForegroundService(new Intent(this,AudioResiver.class));
 
 //Log.i("lll", getip());
 
